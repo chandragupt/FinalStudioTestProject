@@ -1,5 +1,6 @@
 package com.example.finalstudiotestproject;
 
+import android.os.AsyncTask;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -18,6 +19,42 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
         List<String> data = new ArrayList<String>();
         Log.d("","");
+        processForLogin();
+        MyInterface myInterface = new MyInterface() {
+            @Override
+            public void setValue() {
+
+            }
+        };
+    }
+
+    private void processForLogin() {
+        new MyAsynch().execute();
+        Thread thread = new Thread() {
+            @Override
+            public void run() {
+
+            }
+        };
+        thread.start();
+    }
+
+    private class MyAsynch extends AsyncTask<Void, Void, Void> {
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+        }
+
+        @Override
+        protected Void doInBackground(Void... params) {
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Void aVoid) {
+            super.onPostExecute(aVoid);
+        }
     }
 
 
