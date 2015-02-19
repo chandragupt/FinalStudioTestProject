@@ -1,0 +1,5 @@
+C:\Workspace\FinalStudioTestProject1\app\build\intermediates\classes\debug
+C:\Workspace\FinalStudioTestProject1\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-462a01db2a72eef683dba432453e3c60782267da.jar
+C:\Workspace\FinalStudioTestProject1\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-432c92da193ac1bc3543f421da07ace5043d352b.jar
+C:\Workspace\FinalStudioTestProject1\app\build\intermediates\pre-dexed\debug\classes-8159fa2e7ff7422bdf6f93ababe03cdefbbf59f0.jar
+C:\Workspace\FinalStudioTestProject1\app\build\intermediates\pre-dexed\debug\classes-f8cf65b955f677467fb8a3c10520a99bfc369299.jar
